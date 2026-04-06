@@ -87,7 +87,7 @@ Evaluated on a held-out test split of USPTO-50K reactions, with synthesizability
 
 SynthPred sees a clean retrosynthetic tree. RDKit finds a 4-step route. SA score is 2.8. Everything checks out computationally.
 
-**What actually happens:** Macrocyclization is entropically brutal. At dilute concentrations needed to avoid oligomerization, you're running reactions at 0.001 M — the yield plummets, purification is a nightmare (these love to co-elute with oligomers on HPLC), and the alternating stereocenters mean you need protecting group choreography that adds 6 steps the model never counted.
+**What actually happens:** Macrocyclization is entropically brutal. At dilute concentrations needed to avoid oligomerization, you're running reactions at 0.001 M - the yield plummets, purification is a nightmare (these love to co-elute with oligomers on HPLC), and the alternating stereocenters mean you need protecting group choreography that adds 6 steps the model never counted.
 
 **The rule the model doesn't know:** Any macrocycle >12 atoms where the retrosynthetic disconnection requires forming the ring in the last step should be penalized heavily. The model was trained on successful reactions — it has never seen a reaction that was abandoned after 3 months.
 
