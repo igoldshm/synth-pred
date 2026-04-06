@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Environments
+.env
+.venv
+env/
+venv/
+.python-version
+
+# Data (too large for git; use DVC or download script)
+data/raw_train.csv
+data/uspto_50k_processed.parquet
+data/*.smi
+data/*.csv
+
+# Models (use GitHub Releases for model weights)
+models/*.joblib
+models/*.pt
+models/*.pth
+!models/.gitkeep
+
+# Outputs
+outputs/figures/*.png
+outputs/evaluation/
+!outputs/.gitkeep
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
