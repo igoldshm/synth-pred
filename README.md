@@ -1,4 +1,4 @@
-# 🧪 SynthPred: ML-Powered Synthesizability Prediction for AI-Generated Molecules
+# SynthPred: ML-Powered Synthesizability Prediction for AI-Generated Molecules
 
 > *"A molecule that can't be made is just a pretty picture."*
 
