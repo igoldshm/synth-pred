@@ -1,7 +1,5 @@
 # SynthPred: ML-Powered Synthesizability Prediction for AI-Generated Molecules
 
-> *"A molecule that can't be made is just a pretty picture."*
-
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![RDKit](https://img.shields.io/badge/RDKit-2023.09-green.svg)](https://www.rdkit.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
