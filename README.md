@@ -9,7 +9,7 @@
 
 ## The Problem This Solves
 
-Generative AI can now propose millions of novel drug-like molecules per day. The dirty secret: **most of them are garbage from a chemistry standpoint.** Not because they violate Lipinski rules or fail a docking score — but because no real synthetic chemist could actually make them in a lab.
+Generative AI can now propose millions of novel drug-like molecules per day. The dirty secret: **most of them are garbage from a chemistry standpoint.** Not because they violate Lipinski rules or fail a docking score - but because no real synthetic chemist could actually make them in a lab.
 
 This project sits at the intersection of machine learning and bench chemistry to answer one question:
 
