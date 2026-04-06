@@ -15,7 +15,7 @@ Generative AI can now propose millions of novel drug-like molecules per day. The
 
 This project sits at the intersection of machine learning and bench chemistry to answer one question:
 
-> *Is this molecule actually makeable — not just theoretically valid?*
+> *Is this molecule actually makeable - not just theoretically valid?*
 
 SynthPred combines:
 1. A **GNN-based synthesizability classifier** trained on USPTO reaction data
